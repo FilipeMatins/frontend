@@ -124,3 +124,49 @@ h3{
 .produtos-lista .produto span{
     text-align: justify;
 }
+
+.produtos-lista1{
+    display: flex;
+    margin-top: 24px;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
+
+.produtos-lista1 .produto1 {
+    /*temporario
+    border: 1px solid black;*/
+    height: 500px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding: 14px;
+    gap: 18px;
+    background-color: rgba(189, 187, 187, 0.9);  
+    box-shadow: 0px 0px 12px 1px rgba(0,0,0,0.5);
+    transition: 0.4s;
+}
+
+.produtos-lista1 .produto1 img{
+    width: 300px;
+    border-radius: 20px;
+}
+
+.produtos-lista1 .produto1 h3{
+    color: black;
+}
+
+.produtos-lista1 .produto1 span{
+    text-align: justify;
+    color: black;
+}
+
+.produtos-lista1 .produto1:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}
